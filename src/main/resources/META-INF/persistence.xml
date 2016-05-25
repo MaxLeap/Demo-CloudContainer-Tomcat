@@ -2,18 +2,18 @@
 <persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
     <persistence-unit name="defaultPersistenceUnit"  transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        <class>com.maxleap.cloud.container.demo.model.UserEntity</class>
         <properties>
             <!-- 使用MySQL方言 -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <!-- 数据库连接的URL地址 -->
-            <property name="hibernate.connection.url"
-                      value="jdbc:mysql://localhost:3306/test"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://你的数据源链接地址"/>
             <!-- 数据库连接的驱动 -->
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
             <!-- 数据库连接的用户名 -->
-            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.username" value="你的用户名"/>
             <!-- 数据库连接的密码 -->
-            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.connection.password" value="你的密码"/>
             <!-- 显示SQL语句 -->
             <property name="hibernate.show_sql" value="true"/>
 

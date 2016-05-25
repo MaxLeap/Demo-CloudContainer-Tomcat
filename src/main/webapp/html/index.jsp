@@ -30,6 +30,8 @@
 
 <h3>出现此页面，说明配置成功。</h3>
 
+<a href="/users">用户管理</a>
+
 <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
 <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
 

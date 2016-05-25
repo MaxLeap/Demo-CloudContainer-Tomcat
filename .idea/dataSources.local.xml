@@ -7,5 +7,11 @@
       <schema-pattern>test.*</schema-pattern>
       <default-schemas>test.*</default-schemas>
     </data-source>
+    <data-source name="defaultPersistenceUnit/Hibernate" uuid="6b4dd92f-a91c-4743-a0fd-9c042873f848">
+      <user-name>你的用户名</user-name>
+      <user-password>dfc0dfcedfc8dfc9df90dfc7dfd3dfd9dfdbdfc6df90df85df8590caa92ebadabcc4b13a4b54bc0f889a88ea</user-password>
+      <schema-pattern>56aad6c2e9db730001a902aa.*</schema-pattern>
+      <default-schemas>56aad6c2e9db730001a902aa.*</default-schemas>
+    </data-source>
   </component>
 </project>

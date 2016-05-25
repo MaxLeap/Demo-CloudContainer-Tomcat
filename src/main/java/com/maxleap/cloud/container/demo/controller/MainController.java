@@ -1,7 +1,7 @@
-package com.cenyol.example.controller;
+package com.maxleap.cloud.container.demo.controller;
 
-import com.cenyol.example.model.UserEntity;
-import com.cenyol.example.repository.UserRepository;
+import com.maxleap.cloud.container.demo.model.UserEntity;
+import com.maxleap.cloud.container.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import java.lang.reflect.Method;
 import java.util.List;
 
 /**
- * Created by sjj on 2015/10/24 0024.
+ * User：David Young
+ * Date：16/5/24
  */
 @Controller
 public class MainController {

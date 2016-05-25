@@ -1,0 +1,22 @@
+*.class
+*.iml
+*.tmp
+*.class
+.project
+.idea/
+.classpath
+.settings/
+*/target/
+/target/*
+/target/
+*.log
+*.iml
+.DS_Store
+# Package Files #
+*.war
+*.ear
+*.zip
+# filter
+!/dist/src/main/resources/vertx/
+.vertx
+/logs
