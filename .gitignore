@@ -3,12 +3,12 @@
 *.tmp
 *.class
 .project
-.idea/
+#.idea/
 .classpath
 .settings/
 */target/
-/target/*
-target
+#/target/*
+#target
 *.log
 *.iml
 .DS_Store
