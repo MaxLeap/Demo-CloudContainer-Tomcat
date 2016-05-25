@@ -8,7 +8,7 @@
 .settings/
 */target/
 /target/*
-/target/
+target
 *.log
 *.iml
 .DS_Store
