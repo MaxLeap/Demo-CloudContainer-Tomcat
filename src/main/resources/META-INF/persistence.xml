@@ -7,13 +7,13 @@
             <!-- 使用MySQL方言 -->
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
             <!-- 数据库连接的URL地址 -->
-            <property name="hibernate.connection.url" value="jdbc:mysql://你的数据源链接地址"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://你的数据源链接地址(类似:circev1.maxleap.cn:3307/56aad6c2e9db730001a902aa)"/>
             <!-- 数据库连接的驱动 -->
             <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
             <!-- 数据库连接的用户名 -->
-            <property name="hibernate.connection.username" value="你的用户名"/>
+            <property name="hibernate.connection.username" value="你的用户名(类似:56aad6c2e9db730001a902aa)"/>
             <!-- 数据库连接的密码 -->
-            <property name="hibernate.connection.password" value="你的密码"/>
+            <property name="hibernate.connection.password" value="你的密码(类似:56aad6c2e9db730001a902aa)"/>
             <!-- 显示SQL语句 -->
             <property name="hibernate.show_sql" value="true"/>
 
@@ -25,6 +25,8 @@
             <property name="hibernate.use_sql_comments" value="false"/>
             <!-- 自动输出schema创建DDL语句 -->
             <property name="hibernate.hbm2ddl.auto" value="update"/>
+            <!-- 连接池大小 -->
+            <property name="hibernate.connection.pool.size" value="100"/>
 
             <!-- 数据库连接超时后自动重连 -->
             <property name="hibernate.connection.autoReconnect" value="true"/>
